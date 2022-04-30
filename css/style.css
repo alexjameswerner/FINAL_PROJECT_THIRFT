@@ -1,8 +1,4 @@
-/* .flexContainer {
-    display: flex;
-    flex-direction: row;
-    /* box-sizing: border-box; 
-  } */
+/* card for home and store sections - steph */
 .card{
     display: flex;
     flex-direction: column;
