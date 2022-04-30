@@ -1,12 +1,19 @@
+/* Styles */
 
+/* Color Palette 
 
+Neutrals 
+    Warm White #F8F5ED
+    Light Pink #E1D3C8
+    Rich Black #212020
+Colors 
+    Retro Peach #D29A85
+    Dusty Orange #C88252
 
+#gradient {
+    background-image: linear-gradient(#D29A85, #F8F5ED);
+  }
 
-
-
-
-
-
-
-
+  
+*/
 
