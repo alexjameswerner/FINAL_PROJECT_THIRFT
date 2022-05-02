@@ -68,6 +68,15 @@ Colors
   padding: 10px;
 }
 
+.blogs h6{
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.blogs p{
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
 
 
 
