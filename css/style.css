@@ -60,6 +60,25 @@ Colors
   }
 
 
+/* blog cards */
+
+#blog-cards{
+  display: flex;
+  border: 5px;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.blogs h6{
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.blogs p{
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
+
 
 
 /* Footer stuff - AB */
