@@ -58,6 +58,16 @@ Colors
   }
 
 
+/* blog cards */
+
+#blog-cards{
+  display: flex;
+  border: 5px;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+
 
 
 /* Footer stuff - AB */
