@@ -31,7 +31,7 @@ Colors
     padding: 10px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
     border-radius: 15px;
   }
   
@@ -50,6 +50,7 @@ Colors
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
   }
   
