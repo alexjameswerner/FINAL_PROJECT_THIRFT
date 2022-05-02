@@ -17,10 +17,11 @@ Colors
   
 */
 /* Home page item cards with price. Steph */
-
+.sectionHeader{
+  font-family: 'Poppins', sans-serif;
+}
 #home-page-cards{
     display: flex;
-    border: 5px solid blue;
     margin: 10px 15px;
     padding: 10px;
 }
@@ -84,6 +85,15 @@ Colors
   padding: 10px;
 }
 
+.blogs h6{
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.blogs p{
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
 
 >>>>>>> 41c72e8dd79f962c0049f7d2c0c7cb70cc73f115
 
