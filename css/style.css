@@ -66,14 +66,14 @@ Colors
 .navigation {
   display: flex;
   font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   flex-direction: row;
   justify-content: right;
 }
 
 .navBlock {
-  width: 100px;
+  width: 200px;
 }
 
 
