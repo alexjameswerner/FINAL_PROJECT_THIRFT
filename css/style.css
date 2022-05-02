@@ -20,9 +20,11 @@ Colors
 
 #home-page-cards{
     display: flex;
-    border: 5px solid blue;
     margin: 10px 15px;
     padding: 10px;
+}
+.sectionHeader{
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
