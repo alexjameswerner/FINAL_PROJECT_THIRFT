@@ -46,6 +46,9 @@ p {
 
 #home-page-cards{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin: 10px 15px;
     padding: 10px;
 }
@@ -58,7 +61,7 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 400px;
     padding: 10px;
-    margin: 30px;
+    margin: 30px; 
     text-align: left;
     font-family: 'Poppins', sans-serif;
     border-radius: 15px;
@@ -129,6 +132,11 @@ p {
 
 .navBlock {
   width: 200px;
+}
+.navBlock:hover{
+  font-family: ''Poppins', sans-serif';
+  font-size: 14px;
+  font-weight: 600;
 }
 
 
@@ -227,4 +235,12 @@ h1 {
   font-size: 20px;
   text-align: left;
 }
+
+
+
+
+
+
+
+
 
