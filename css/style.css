@@ -62,8 +62,16 @@ Colors
     opacity: 0.7;
   }
 
+
+  /* Logo and header info */
   .logo{
-    margin: 15px;
+    display: flex;
+    
+  }
+
+  .logo input{
+    
+    border-radius: 50px;
   }
 
   .heroImage{
