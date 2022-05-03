@@ -89,6 +89,15 @@ Colors
   padding: 10px;
 }
 
+.blogs p{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
+
+.blogs{
+  margin: 100px 10px;
+}
+
 
 /* Footer stuff - AB */
 
