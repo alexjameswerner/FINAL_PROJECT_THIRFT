@@ -24,6 +24,10 @@ Colors
     padding: 0;
 }
 
+/* header sections */
+
+
+
 h1 { 
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -109,13 +113,21 @@ h1 {
 
 /* Nav stuff - AB */
 
+.topSectionSecondary{
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  border: 2px solid blue;
+}
+
+
 .navigation {
   display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
   flex-direction: row;
   justify-content: right;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400; 
   padding: 50px;
 }
 
@@ -124,14 +136,14 @@ h1 {
 }
 
 
-
 /* blog cards */
 
 #blog-cards{
     display: flex;
-    border: 5px;
-    margin: 10px 15px;
-    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 15px;
   }
   
   .blogs p{
