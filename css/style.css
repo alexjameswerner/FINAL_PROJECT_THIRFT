@@ -62,7 +62,6 @@ p {
 
 
 
-
 #home-page-cards{
     display: flex;
     flex-direction: row;
@@ -75,8 +74,6 @@ p {
   font-family: 'Poppins', sans-serif;
   margin: 10px;
 }
-
-
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -129,15 +126,15 @@ p {
     padding: 15px;
   }
 
-  .heroimg {
-    display: flex;
-    justify-content: center;
-  
+  .heroImage{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
   }
 
   .topSection {
     background-image: linear-gradient(#D29A85, #F8F5ED);
-    height: 800px;
+    height: 500px;
   }
 
 /* Nav stuff - AB */
@@ -259,3 +256,69 @@ h1 {
 }
 
 
+/* STORE SEARCH PAGE - AB */
+
+.searchHeader {
+  background-image: linear-gradient(#D29A85, #F8F5ED);
+  height: 500px;
+}
+
+.whereYouAt {
+  display: flex;
+  align-items: baseline;
+  height: 50px;
+  padding: 50px;
+}
+
+.whereYouAt input{
+  border-radius: 50px;
+}
+
+.map { 
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  left: 15%;
+  right: 15%;
+  background-color: lightcyan;
+}
+
+.topSectionSecondary {
+  height: 500px;
+}
+
+#storeOne{
+  display: flex;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+#storeTwo{
+  display: flex;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.navigationSecondary {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.navBlockR {
+  justify-content: right;
+  width: 200px;
+}
+
+.navBlockL {
+  width: 400px;
+  justify-content: left;
+}
+
+.storeName {
+  padding-right: 50px;
+  padding-top: 100px;
+}
