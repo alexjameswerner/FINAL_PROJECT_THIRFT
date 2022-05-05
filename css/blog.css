@@ -113,7 +113,30 @@ h1 {
 
 /* Nav stuff - AB */
 
-.topSectionSecondary{
+
+
+.navigation {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  flex-direction: row;
+  justify-content: right;
+  padding: 50px;
+}
+
+.navBlock {
+  width: 200px;
+}
+.navBlock:hover{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+/* .topSectionSecondary{
   display: flex;
   justify-content: space-between;
   align-items: right;
@@ -133,7 +156,7 @@ h1 {
 
 .navBlock {
   width: 200px;
-}
+} */
 
 
 /* blog cards */
