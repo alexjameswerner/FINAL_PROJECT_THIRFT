@@ -17,6 +17,11 @@ Colors
   
 */
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 
 /* HEADER STYLES  */
 
@@ -134,8 +139,10 @@ p {
 
   .topSection {
     background-image: linear-gradient(#D29A85, #F8F5ED);
-    height: 500px;
+    height: 200px;
   }
+
+  
 
 /* Nav stuff - AB */
 
