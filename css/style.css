@@ -126,15 +126,17 @@ p {
     padding: 15px;
   }
 
-  .heroImage{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 400; 
+  .hero{
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 
   .topSection {
     background-image: linear-gradient(#D29A85, #F8F5ED);
-    height: 500px;
+    height: 800px;
   }
 
 /* Nav stuff - AB */
