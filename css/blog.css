@@ -19,43 +19,67 @@ Colors
 
 
 /* HEADER STYLES  */
-*{
-    margin: 0;
-    padding: 0;
-}
-
-/* header sections */
-
-
 
 h1 { 
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    margin-left: 5px;
-  }
-  
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    color: #CD936F;
-    text-align: left;
-    margin-left: 5px;
-  }
-  
-  p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    margin-left: 30px;
-  }
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 5px;
+}
 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #CD936F;
+  text-align: left;
+  margin-left: 5px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  text-align: left;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+h4 { 
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+
+
+/* product cards Steph */
+
+
+
+#home-page-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px;
+    padding: 10px;
+}
+.sectionHeader{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 400px;
     padding: 10px;
-    margin: 30px;
+    margin: 30px; 
     text-align: left;
     font-family: 'Poppins', sans-serif;
     border-radius: 15px;
@@ -93,11 +117,13 @@ h1 {
   /* Logo and header info */
   .logo{
     display: flex;
-    
+    height: 50px;
+    padding: 50px;
   }
 
   .logo input{
     border-radius: 50px;
+    padding: 15px;
   }
 
   .heroImage{
@@ -113,9 +139,9 @@ h1 {
 
 /* Nav stuff - AB */
 
-
-
 .navigation {
+  background-image: linear-gradient(#D29A85, #F8F5ED);
+  height: 300px;
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -135,123 +161,168 @@ h1 {
 }
 
 
-
-/* .topSectionSecondary{
-  display: flex;
-  justify-content: space-between;
-  align-items: right;
-  border: 2px solid blue;
-}
-
-
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 400; 
-  padding: 50px;
-}
-
-.navBlock {
-  width: 200px;
-} */
-
-
 /* blog cards */
 
 #blog-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 15px;
-  }
-  
-  .blogs p{
-    font-family: 'Poppins', sans-serif;
-    margin: 10px;
-  }
-  
-  .blogs{
-    margin: 100px 10px;
-  }
-  
+  display: flex;
+  border: 5px;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.blogs p{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
+
+.blogs{
+  margin: 100px 10px;
+}
+
+
 /* Footer stuff - AB */
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    grid-column: 4;
-    padding: 50px 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #F0EFEC;
-    color: #4b4c4d;
-  }
-  
-  .name {
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 30px;
-  }
-  
-  .contact {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  
-  .social {
-    grid-column: 3;
-    grid-row: 1;
-  }
-  
-  .search {
-    /* SEARCH BAR HERE ??? */
-    grid-column: 4;
-    width: 200px;
-    height: 25px;
-    background-color: white;
-    border-color: white;
-    margin-right: 30px;
-  }
-  
-  .footer h3 {
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  .footer ul {
-    padding: 0;
-    list-style: none;
-    line-height: 1.6;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  
-  .footer ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-  }
-  
-  .footer .copyright {
-    margin-top: 14px;
-    margin-bottom: 0;
-    font-size: 10px;
-    opacity: 0.6;
-  }
-  
-  
-  h1 { 
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    text-align: left;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-column: 4;
+  padding: 50px 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F0EFEC;
+  color: #4b4c4d;
+}
+
+.name {
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 30px;
+}
+
+.contact {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.social {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.search {
+  /* SEARCH BAR HERE ??? */
+  grid-column: 4;
+  width: 200px;
+  height: 25px;
+  background-color: white;
+  border-color: white;
+  margin-right: 30px;
+}
+
+.footer h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+
+h1 { 
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+/* STORE SEARCH PAGE - AB */
+
+.searchHeader {
+  background-image: linear-gradient(#D29A85, #F8F5ED);
+  height: 500px;
+}
+
+.whereYouAt {
+  display: flex;
+  align-items: baseline;
+  height: 50px;
+  padding: 50px;
+}
+
+.whereYouAt input{
+  border-radius: 50px;
+}
+
+.map { 
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  left: 15%;
+  right: 15%;
+  background-color: lightcyan;
+}
+
+.topSectionSecondary {
+  height: 500px;
+}
+
+#storeOne{
+  display: flex;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+#storeTwo{
+  display: flex;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.navigationSecondary {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.navBlockR {
+  justify-content: right;
+  width: 200px;
+}
+
+.navBlockL {
+  width: 400px;
+  justify-content: left;
+}
+
+.storeName {
+  padding-right: 50px;
+  padding-top: 100px;
+}
+
   
