@@ -36,7 +36,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 200;
-  color: #CD936F;
+  color: #71523f;
   text-align: left;
   margin-left: 5px;
 }
@@ -316,7 +316,7 @@ h1 {
 }
 
 .topSectionSecondary {
-  height: 500px;
+  height: 100px;
 }
 
 #storeOne{
@@ -356,3 +356,35 @@ h1 {
 }
 
   
+/* RWD */
+
+@media only screen and (max-width: 1000px) {
+  
+  .featuredBlog{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #featuredCards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px;
+    }
+
+  #blog-cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px;
+  }
+
+  .card{
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+}
+
