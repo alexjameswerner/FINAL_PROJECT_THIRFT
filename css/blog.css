@@ -172,6 +172,8 @@ p {
 
 #blog-cards{
   display: flex;
+  align-items: center;
+  border: 2px solid red;
   border: 5px;
   margin: 10px 15px;
   padding: 10px;
