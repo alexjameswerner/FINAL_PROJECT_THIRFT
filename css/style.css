@@ -122,6 +122,27 @@ p {
   }
 
 
+  /* browse shops */
+
+  #storeOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px;
+    padding: 10px;
+  }
+
+  #storeTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px;
+    padding: 10px;
+  }
+
+
   /* Logo and header info */
   .logo{
     height: 500px;
