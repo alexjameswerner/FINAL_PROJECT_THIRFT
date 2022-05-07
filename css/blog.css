@@ -156,7 +156,7 @@ p {
 /* Nav stuff - AB */
 
 .topSectionSecondary .navigation {
-  height: 200px;
+  height: 10px;
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
