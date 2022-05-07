@@ -351,12 +351,12 @@ h1 {
 }
 
 .map { 
+  display: center;
   position: relative;
   width: 1000px;
   height: 400px;
   left: 15%;
   right: 15%;
-  background-color: lightcyan;
 }
 
 .topSectionSecondary {
